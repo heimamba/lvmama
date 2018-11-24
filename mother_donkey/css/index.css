@@ -1,0 +1,160 @@
+html, body {
+  height: 100%;
+  background-color: #f7f7f7;
+}
+
+header {
+  height: 45px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  line-height: 45px;
+}
+
+header .options, header .my {
+  flex: 1;
+}
+
+header .title {
+  flex: 2;
+  text-align: center;
+}
+
+header select {
+  color: #D00397;
+  border: 0;
+  outline: 0;
+  background-color: #f7f7f7;
+  width: 61px;
+}
+
+header .my {
+  position: relative;
+}
+
+header .my img {
+  position: absolute;
+  width: 25px;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.swiper-container {
+  width: 100%;
+}
+
+.swiper-container img {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav .nav-img {
+  width: 33.33%;
+  padding: 3px;
+}
+
+nav .nav-img img {
+  width: 100%;
+}
+
+.navlist ul {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.navlist ul li {
+  width: 25%;
+  border-right: 1px solid #ccc;
+}
+
+.navlist ul li:nth-of-type(4n) {
+  border-right: none;
+}
+
+.navlist ul li:nth-of-type(-n+4) {
+  border-bottom: 1px solid #ccc;
+}
+
+.navlist ul li img {
+  width: 100%;
+}
+
+.ad {
+  margin-top: 20px;
+}
+
+.ad .items {
+  float: left;
+  width: 50%;
+}
+
+.ad .items img {
+  width: 100%;
+  display: block;
+}
+
+.ad .items.b-right {
+  border-right: 1px solid #ccc;
+}
+
+.ad .items.b-bottom {
+  border-bottom: 1px solid #ccc;
+}
+
+.hot {
+  margin-top: 10px;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ccc;
+}
+
+.hot h3 {
+  font-weight: 400;
+  margin: 0px;
+  line-height: 40px;
+  padding-left: 20px;
+}
+
+.hot .items {
+  width: 100%;
+  border-top: 1px solid #ccc;
+}
+
+.hot .items img {
+  width: 100%;
+  display: block;
+}
+
+.choose .top .item {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.choose .top .item a {
+  font-size: 16px;
+  line-height: 40px;
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  color: #D00397;
+}
+
+.choose .top .item:first-child a {
+  border-bottom: 2px solid #D00397;
+}
+
+.choose .item {
+  width: 100%;
+}
+
+.choose .item img {
+  width: 100%;
+}
+/*# sourceMappingURL=index.css.map */

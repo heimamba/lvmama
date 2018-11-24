@@ -1,0 +1,136 @@
+html,body{
+    height: 100%;
+    background-color: #f7f7f7;
+}
+header{
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    line-height: 45px;
+    .options,.my{
+        flex: 1
+    }
+    .title{
+        flex: 2;
+        text-align: center;
+    }
+    select{
+        color: #D00397;
+        border: 0;
+        outline: 0;
+        background-color: #f7f7f7;
+        width: 61px;
+    }
+    .my {
+        position: relative;
+        img{
+            position: absolute;
+            width: 25px;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%)
+        }
+    }
+}
+.swiper-container {
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    .nav-img{
+        width: 33.33%;
+        padding: 3px;
+        img{
+            width: 100%;
+        }
+    }
+}
+.navlist{
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        li{
+            width: 25%;
+            border-right: 1px solid #ccc;
+            &:nth-of-type(4n){
+                border-right: none
+            }
+            &:nth-of-type(-n+4) {
+                border-bottom: 1px solid #ccc;
+            }
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+.ad{
+    margin-top: 20px;
+    .items{
+        float: left;
+        width: 50%;
+        img{
+            width: 100%;
+            display: block;
+        }
+        &.b-right{
+            border-right: 1px solid #ccc;
+        }
+        &.b-bottom{
+            border-bottom: 1px solid #ccc;
+        }
+    }
+}
+.hot{
+    margin-top: 10px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;    
+    h3{
+        font-weight: 400;
+        margin: 0px;
+        line-height: 40px;
+        padding-left: 20px;
+    }
+    .items{
+        width: 100%;
+        img{
+            width: 100%;
+            display: block;
+        }
+        border-top: 1px solid #ccc;
+    }
+}
+.choose{
+    .top{
+        .item{
+            width: 50%;
+            float: left;
+            text-align: center;
+            
+            a{
+                font-size: 16px;
+                line-height: 40px;
+                display: block;
+                width: 100px;
+                margin: 0 auto;
+                color: #D00397;
+            }
+            &:first-child a{
+                border-bottom: 2px solid #D00397;
+            }
+        }
+    }
+    .item{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+}
